@@ -1,0 +1,10 @@
+Desain:
+Dalam rancangan ini, BahanKonsumsiOral memiliki 3 parent yaitu Makanan, Minuman dan Obat karena memiliki
+atribut Kode dan jenis (terdiri dari makanan, minuman, dan obat). 
+Kemudian jenis bahan tersebut memiliki noijin pabrik juga sehingga Pabrik Makanan dan obat interface bagi Makanan/Minuman/Obat.
+Pabrik Makanan dan Obat -> Makanan -> BahanKonsumsiOral
+                           Minuman
+                           Obat
+
+Pemilik Pabrik -> Manusia (inheritence, karena sama di dunia nyata)
+Pemilik Pabrik -> Pabrik Makanan dan Obat (interface)
